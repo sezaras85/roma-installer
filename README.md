@@ -1,7 +1,8 @@
 # 1-UBUNTU KURULUMU
 Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin
-
-
+.
+.
+.
 <img width="1873" height="934" alt="ubuntu mic skur" src="https://github.com/user-attachments/assets/7dc0347c-05b1-417e-a596-45c996f81e22" />
 
 
