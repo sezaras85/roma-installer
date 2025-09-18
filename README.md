@@ -8,8 +8,10 @@ Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin
 
 # 2-Openrouter hesap oluşturma
 
-https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ üst köşeden ayarlar kısmından API keye gelin ve create api keye basarak api keyinizi oluşturun. 
+https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ üst köşeden ayarlar kısmından API keye gelin ve create api keye basarak api keyinizi oluşturun. sk- ile başlayan api keyinizi bir yere not alın. ekranı kapattıktan sonra api keyinizi bir daha göremiyorsunuz dikkat edin.
+
 <img width="1860" height="913" alt="openrouter keys" src="https://github.com/user-attachments/assets/ea75ee63-90a6-4721-af76-fc4bf0ecb121" />
+<img width="1813" height="745" alt="openrotuer sk key" src="https://github.com/user-attachments/assets/0df772f4-4588-4cbc-9596-5c989bad222a" />
 
 # 2-DOCKER DESKTOP KURULUMU
 https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri yükleyin. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. 
@@ -45,7 +47,18 @@ sudo apt install git docker.io docker-compose -y
 <img width="945" height="491" alt="güncelleme ubuntu" src="https://github.com/user-attachments/assets/8a180d7d-253f-480a-92a9-f89b2b1a922e" />
 
 
+Daha sonra aşağıdaki komutları sırasıyla yazın terminal ekranına
 
+```Bash
+git clone https://github.com/sentient-agi/ROMA.git
+cd ROMA
+
+./setup.sh --docker
+
+```
+
+
+<img width="946" height="493" alt="git roma1" src="https://github.com/user-attachments/assets/486f425e-134f-415e-b50d-f17ffa39a08b" />
 
 
 
