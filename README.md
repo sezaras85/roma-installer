@@ -47,7 +47,7 @@ sudo apt install git docker.io docker-compose -y
 <img width="945" height="491" alt="güncelleme ubuntu" src="https://github.com/user-attachments/assets/8a180d7d-253f-480a-92a9-f89b2b1a922e" />
 
 
-Daha sonra aşağıdaki komutları sırasıyla yazın terminal ekranına
+Daha sonra aşağıdaki komutları sırasıyla yazın terminal ekranına. yaklaşık 10 dakika sürüyor yüklenmesi ekranı kapatmadan bekleyin.
 
 ```Bash
 git clone https://github.com/sentient-agi/ROMA.git
@@ -60,11 +60,51 @@ cd ROMA
 
 <img width="946" height="493" alt="git roma1" src="https://github.com/user-attachments/assets/486f425e-134f-415e-b50d-f17ffa39a08b" />
 
+<img width="947" height="491" alt="roma yüklendi" src="https://github.com/user-attachments/assets/cc0387b4-855f-42ca-a66e-c90df24a1f64" />
+
+Yükleme tamamlandıktan sonra aşağıdaki kodları sırasıyla yazın terminal ekranında. son komutta daha önce openrouter den aldığımız sk- ile başlayan api keyinizi kopyalayıp yazın. 
+
+```Bash
+cd
+cd ROMA
+sed -i 's/api_key: "your-openrouter-key"/api_key: "${OPENROUTER_API_KEY}"/' sentient.yaml
+```
 
 
+Şimdi api keyimizi yazalım. YUkarıda openrouterden api keyimizi almıştık. şimdi aşağıda "sk_ile_başlayan_api_keyi_yaz" kısmını düzelterek kendi sk- ile başlayan api keyinizi yazın. api keyinizi yazdıktan sonra komutu kopyalayıp terminale yapıştırın
+
+```Bash
+sed -i 's/OPENROUTER_API_KEY=your_openrouter_key_here/OPENROUTER_API_KEY=sk_ile_başlayan_api_keyi_yaz/' .env
+
+```
+<img width="1900" height="666" alt="api keyi yaz tek komut" src="https://github.com/user-attachments/assets/424a2c7d-ad3a-4dd5-8b1e-369d5ecc1f95" />
+
+şimdi model id düzenlemeye geçelim. aşağıdaki komutları sırayla terminale yapıştırın
+
+```Bash
+cd
+cd ~/ROMA/src/sentientresearchagent/hierarchical_agent_framework/agent_configs
+sed -i 's/model_id:.*".*"/model_id: "openrouter\/deepseek\/deepseek-chat-v3.1:free"/g' agents.yaml openrouter/deepseek/deepseek-chat-v3.1:free
+
+```
+
+<img width="952" height="356" alt="model id" src="https://github.com/user-attachments/assets/8cd4fbbf-a997-4184-ac86-7528d1f76c8e" />
+
+şimdi ROMA yı başlatmaya hazırız. aşağıdaki kodları sırasıyla terminal ekranına yazın.
+
+```Bash
+cd
+cd ROMA
+cd docker
+docker compose down
+docker compose up -d
+
+```
+
+<img width="950" height="443" alt="docker restart" src="https://github.com/user-attachments/assets/a7377f73-043d-4524-b73c-e75ba458c903" />
 
 
+şimdi tarayıcınızdan http://localhost:3000/ adresine gidin ve ROMA yı kullanmaya başlayın...
 
-
-
+<img width="949" height="470" alt="roma tamam" src="https://github.com/user-attachments/assets/e020ddc0-1c27-4aca-a1ed-ae4698a675f2" />
 
