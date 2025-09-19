@@ -32,12 +32,12 @@ daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmında
 <img width="1890" height="966" alt="docker ubuntu aktif" src="https://github.com/user-attachments/assets/7fcf0b2e-c240-491c-85ba-f41464c1cd60" />
 
 
-Daha sonra arama kısmına ubuntu yazarak çalışıtırın. sizden kullanıcı adı ve parola belirlemenizi isteyecek. herhangi bir kullanıcı adı ve parola yazın. 
+Şimdi bilgisyarınızın arama kısmına ubuntu yazarak çalışıtırın. sizden kullanıcı adı ve parola belirlemenizi isteyecek. herhangi bir kullanıcı adı ve parola yazın. 
 
 
 <img width="947" height="396" alt="ubuntu kullanıc paralo" src="https://github.com/user-attachments/assets/e04fb3a3-4b99-483d-a5b3-80d5c9811cb0" />
 
-Daha sonra terminal satırına şu kodları kopyalayıp yapıştırın. şifre isterse az önce belirlediğiniz şifreyi yazın
+Daha sonra terminal satırına şu kodları tek tek kopyalayıp yapıştırın. şifre isterse az önce belirlediğiniz şifreyi yazın
 
 ```Bash
 sudo apt update && sudo apt upgrade -y
@@ -62,7 +62,8 @@ cd ROMA
 
 <img width="947" height="491" alt="roma yüklendi" src="https://github.com/user-attachments/assets/cc0387b4-855f-42ca-a66e-c90df24a1f64" />
 
-Yükleme tamamlandıktan sonra aşağıdaki kodları sırasıyla yazın terminal ekranında. son komutta daha önce openrouter den aldığımız sk- ile başlayan api keyinizi kopyalayıp yazın. 
+Yükleme tamamlandıktan sonra aşağıdaki kodları sırasıyla yazın terminal ekranında. 
+
 
 ```Bash
 cd
@@ -74,6 +75,8 @@ sed -i 's/api_key: "your-openrouter-key"/api_key: "${OPENROUTER_API_KEY}"/' sent
 Şimdi api keyimizi yazalım. YUkarıda openrouterden api keyimizi almıştık. şimdi aşağıda "sk_ile_başlayan_api_keyi_yaz" kısmını düzelterek kendi sk- ile başlayan api keyinizi yazın. api keyinizi yazdıktan sonra komutu kopyalayıp terminale yapıştırın
 
 ```Bash
+cd
+cd ROMA
 sed -i 's/OPENROUTER_API_KEY=your_openrouter_key_here/OPENROUTER_API_KEY=sk_ile_başlayan_api_keyi_yaz/' .env
 
 ```
