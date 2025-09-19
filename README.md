@@ -14,7 +14,7 @@ https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ
 <img width="1813" height="745" alt="openrotuer sk key" src="https://github.com/user-attachments/assets/0df772f4-4588-4cbc-9596-5c989bad222a" />
 
 # 3-DOCKER DESKTOP KURULUMU
-https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri yükleyin. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. 
+https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri indirip bilgisayarınıza yükleyin. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. Hata verirse kapatıp tekrar açın güncelleme yapıp çalışması lazım.
 
 
 
@@ -32,7 +32,7 @@ daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmında
 <img width="1890" height="966" alt="docker ubuntu aktif" src="https://github.com/user-attachments/assets/7fcf0b2e-c240-491c-85ba-f41464c1cd60" />
 
 
-Şimdi bilgisyarınızın arama kısmına ubuntu yazarak çalışıtırın. sizden kullanıcı adı ve parola belirlemenizi isteyecek. herhangi bir kullanıcı adı ve parola yazın. 
+Şimdi bilgisyarınızın arama kısmına ubuntu yazarak daha önce yüklediğimiz ubuntu programını çalışıtırın. terminal komut ekranı açılacak ve sizden kullanıcı adı ve parola belirlemenizi isteyecek. herhangi bir kullanıcı adı ve parola yazın. 
 
 
 <img width="947" height="396" alt="ubuntu kullanıc paralo" src="https://github.com/user-attachments/assets/e04fb3a3-4b99-483d-a5b3-80d5c9811cb0" />
