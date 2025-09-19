@@ -13,7 +13,7 @@ https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ
 <img width="1860" height="913" alt="openrouter keys" src="https://github.com/user-attachments/assets/ea75ee63-90a6-4721-af76-fc4bf0ecb121" />
 <img width="1813" height="745" alt="openrotuer sk key" src="https://github.com/user-attachments/assets/0df772f4-4588-4cbc-9596-5c989bad222a" />
 
-# 2-DOCKER DESKTOP KURULUMU
+# 3-DOCKER DESKTOP KURULUMU
 https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri yükleyin. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. 
 
 
