@@ -76,6 +76,8 @@ cd ROMA
 sed -i 's/api_key: "your-openrouter-key"/api_key: "${OPENROUTER_API_KEY}"/' sentient.yaml
 ```
 
+<img width="950" height="383" alt="sentient yaml2" src="https://github.com/user-attachments/assets/9ee330f1-6c41-4c1e-b48b-9f8137dfc6a4" />
+
 
 Şimdi api keyimizi yazalım. YUkarıda openrouterden api keyimizi almıştık. şimdi aşağıda "sk_ile_başlayan_api_keyi_yaz" kısmını düzelterek kendi sk- ile başlayan api keyinizi yazın. api keyinizi yazdıktan sonra komutu kopyalayıp terminale yapıştırın
 
