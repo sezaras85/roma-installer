@@ -100,7 +100,7 @@ sed -i 's/model_id:.*".*"/model_id: "openrouter\/deepseek\/deepseek-chat-v3.1:fr
 
 <img width="952" height="356" alt="model id" src="https://github.com/user-attachments/assets/8cd4fbbf-a997-4184-ac86-7528d1f76c8e" />
 
-şimdi ROMA yı başlatmaya hazırız. aşağıdaki kodları sırasıyla terminal ekranına yazın.
+şimdi ROMA yı başlatmaya hazırız. aşağıdaki kodları sırasıyla terminal ekranına yazın. 2-3 dakika bekleyin.
 
 ```Bash
 cd
@@ -113,8 +113,24 @@ docker compose up -d
 
 <img width="950" height="443" alt="docker restart" src="https://github.com/user-attachments/assets/a7377f73-043d-4524-b73c-e75ba458c903" />
 
+Kurulumda bir hata olup olmadığını kontrol etmek için logları kontrol edelim. yine docker klasöründe aşağıdaki komutu çalıştırın. herşey yolundaysa aşağıdaki ekranı görmeniz lazım. daha sonra ctrl+c ye basarak çıkabilirsiniz.
+
+```Bash
+docker compose logs -f
+
+```
+
+<img width="951" height="503" alt="log kontrol" src="https://github.com/user-attachments/assets/d99af0ae-ae87-4170-a47d-8462d447b003" />
+
 
 şimdi tarayıcınızdan http://localhost:3000/ adresine gidin ve ROMA yı kullanmaya başlayın...
 
 <img width="949" height="470" alt="roma tamam" src="https://github.com/user-attachments/assets/e020ddc0-1c27-4aca-a1ed-ae4698a675f2" />
+
+
+
+
+
+
+
 
