@@ -1,3 +1,8 @@
+# Sentient ROMA - Türkçe Kurulum Rehberi
+
+Bu Rehberi Neden Hazırladım? Bildiğiniz gibi ROMA, Sentient ekibi tarafından geliştirilen açık kaynaklı bir meta-ajan çerçevesi (framework). Amacı: birden fazla hafif ajanın birlikte çalışarak yüksek düzeyde performanslı, karmaşık görevleri çözmesi. Ekip ROMA kurulumu için bir github rehberi hazırladı ve github trendlerde 1 numaraya ulaştı. Ancak herkesin kolayca kurabileceği bir rehber bulunmamaktadır. Herkesin ROMA yı kurup deneyimlemesi için bu rehberi hazırladım. Bu rehberdeki basit adımları uygulayarak ROMA yı bilgisayarınızda çalışıtrabilir ve karmaşık görevleri nasıl çözdüğüne bizzat şahit olabilirsiniz. Hadi başlayalım... 
+
+
 # 1-UBUNTU KURULUMU
 Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin
 .
@@ -24,7 +29,7 @@ https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docke
 <img width="707" height="401" alt="docker setup" src="https://github.com/user-attachments/assets/6ddb4223-6dfd-4983-8fb8-5ad2602e1b98" />
 
 
-daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmından WSL integration kısmından ubuntuyu aktif ederek restart&apply tuşuna basarak ubuntuyu aktif edin.
+Daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmından WSL integration kısmından ubuntuyu aktif ederek restart&apply tuşuna basarak ubuntuyu aktif edin.
 
 
 
