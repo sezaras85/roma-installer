@@ -4,7 +4,7 @@ Bu Rehberi Neden Hazırladım? Bildiğiniz gibi ROMA, Sentient ekibi tarafından
 
 
 # 1-UBUNTU KURULUMU
-Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin
+Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin. Tamamlandıktan sonra terminal ekranı açılcak otomatik güncelleme yapacak
 .
 .
 .
@@ -13,13 +13,13 @@ Microsoft Storeden uygulamalardan ubuntuyu aratarak yükleyin
 
 # 2-Openrouter hesap oluşturma
 
-https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ üst köşeden ayarlar kısmından API keye gelin ve create api keye basarak api keyinizi oluşturun. sk- ile başlayan api keyinizi bir yere not alın. ekranı kapattıktan sonra api keyinizi bir daha göremiyorsunuz dikkat edin.
+https://openrouter.ai/ adresine gidirek google hesabınızla oturum açın. Sağ üst köşeden ayarlar kısmından Keys e tıklayın API keye gelin ve create api keye basın çıkan ekrandan name kısmından bir isim verin ve create tuşuna basarak api keyinizi oluşturun. sk- ile başlayan api keyinizi bir yere not alın. ekranı kapattıktan sonra api keyinizi bir daha göremiyorsunuz dikkat edin.
 
 <img width="1860" height="913" alt="openrouter keys" src="https://github.com/user-attachments/assets/ea75ee63-90a6-4721-af76-fc4bf0ecb121" />
 <img width="1813" height="745" alt="openrotuer sk key" src="https://github.com/user-attachments/assets/0df772f4-4588-4cbc-9596-5c989bad222a" />
 
 # 3-DOCKER DESKTOP KURULUMU
-https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri indirip bilgisayarınıza yükleyin. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. Hata verirse kapatıp tekrar açın güncelleme yapıp çalışması lazım.
+https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docker Desktop'' kısmından windows için dockeri indirip bilgisayarınıza yükleyin. restarttan sonra masaüstünde Docker desktop çalıştırın. kayıt olmadan devam et e basın. yükleme bittikten sonra masaüstü sağ alt köşede Docker desktop running yazması lazım. Hata verirse kapatıp tekrar açın güncelleme yapıp çalışması lazım.
 
 
 
@@ -29,10 +29,15 @@ https://www.docker.com/products/docker-desktop/ adresine gidin. ''Download Docke
 <img width="707" height="401" alt="docker setup" src="https://github.com/user-attachments/assets/6ddb4223-6dfd-4983-8fb8-5ad2602e1b98" />
 
 
-Daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmından WSL integration kısmından ubuntuyu aktif ederek restart&apply tuşuna basarak ubuntuyu aktif edin.
+Daha sonra sağ üst köşede ayarlar simgesine tıklayın. Resources kısmından WSL integration kısmından ubuntuyu aktif ederek restart&apply tuşuna basarak ubuntuyu aktif edin. Eğer WSL integration kısmında ubuntu görünmüyorsa; bilgisayarınızın arama kısmına terminal ya da Wİndows PowerShell yazın ve komut ekranını açın ve sırasıyla şu komutları yazın: 
 
+```Bash
+wsl --install -d Ubuntu-22.04
+wsl -s Ubuntu-22.04
 
+```
 
+<img width="871" height="452" alt="wal" src="https://github.com/user-attachments/assets/009707ea-7635-4164-8f75-1b08fa4d00fd" />
 
 <img width="1890" height="966" alt="docker ubuntu aktif" src="https://github.com/user-attachments/assets/7fcf0b2e-c240-491c-85ba-f41464c1cd60" />
 
