@@ -1,4 +1,4 @@
-# Sentient ROMA - Türkçe Kurulum Rehberi
+# Sentient ROMA -Kurulum Rehberi
 
 Bu Rehberi Neden Hazırladım? Bildiğiniz gibi ROMA, Sentient ekibi tarafından geliştirilen açık kaynaklı bir meta-ajan çerçevesi (framework). Amacı: birden fazla hafif ajanın birlikte çalışarak yüksek düzeyde performanslı, karmaşık görevleri çözmesi. Ekip ROMA kurulumu için bir github rehberi hazırladı ve github trendlerde 1 numaraya ulaştı. Ancak herkesin kolayca kurabileceği bir rehber bulunmamaktadır. Herkesin ROMA yı kurup deneyimlemesi için bu rehberi hazırladım. Bu rehberdeki basit adımları uygulayarak ROMA yı bilgisayarınızda çalışıtrabilir ve karmaşık görevleri nasıl çözdüğüne bizzat şahit olabilirsiniz. Hadi başlayalım... 
 
