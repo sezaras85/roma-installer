@@ -42,7 +42,7 @@ wsl -s Ubuntu-22.04
 <img width="1890" height="966" alt="docker ubuntu aktif" src="https://github.com/user-attachments/assets/7fcf0b2e-c240-491c-85ba-f41464c1cd60" />
 
 
-Şimdi bilgisyarınızın arama kısmına ubuntu yazarak daha önce yüklediğimiz ubuntu programını çalışıtırın. terminal komut ekranı açılacak sizden tekrar kullanıcı adı ve parola belirlemenizi isteyebilir. herhangi bir kullanıcı adı ve parola yazın. 
+Şimdi bilgisyarınızın arama kısmına ubuntu yazarak daha önce yüklediğimiz ubuntu programını çalışıtırın. terminal komut ekranı açılacak sizden tekrar kullanıcı adı ve parola belirlemenizi isteyebilir. herhangi bir kullanıcı adı ve parola yazın. Bundan sonraki tüm komutları ubuntu terminal ile çalıştıracağız. 
 
 
 <img width="947" height="396" alt="ubuntu kullanıc paralo" src="https://github.com/user-attachments/assets/e04fb3a3-4b99-483d-a5b3-80d5c9811cb0" />
